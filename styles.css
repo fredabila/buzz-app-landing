@@ -6,32 +6,35 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
 }
 
 header {
   text-align: center;
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color: #102d5a;
+  padding: 60px 0;
+  color: #fff;
 }
 
 h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 40px;
 }
 
 #features {
   text-align: center;
-  padding: 40px 0;
-  background-color: #ebebeb;
+  padding: 60px 0;
+  background-color: #fff;
 }
 
 h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 40px;
 }
 
 ul {
@@ -40,31 +43,61 @@ ul {
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #screenshots {
   text-align: center;
-  padding: 40px 0;
-  background-color: #ffffff;
+  padding: 60px 0;
+  background-color: #f7f7f7;
 }
 
 .screenshot {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 30px;
+  text-align: center;
 }
 
-.screenshot img {
+.device {
+  position: relative;
   width: 280px;
+  height: 560px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.device:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 2px solid #aaa;
+  border-radius: 14px;
+}
+
+.device img {
+  max-width: 240px;
   height: auto;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.screenshot p {
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 #cta {
   text-align: center;
-  padding: 40px 0;
-  background-color: #f2f2f2;
+  padding: 60px 0;
+  background-color: #102d5a;
+  color: #fff;
 }
 
 .app-links {
@@ -81,6 +114,7 @@ li {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: #102d5a;
+  color: #fff;
   font-size: 14px;
 }
