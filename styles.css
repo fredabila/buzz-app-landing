@@ -1,0 +1,42 @@
+/* Add your custom CSS styles here */
+header {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#features {
+  text-align: center;
+  padding: 20px;
+}
+
+#screenshots {
+  text-align: center;
+  padding: 20px;
+}
+
+.screenshot {
+  margin-bottom: 20px;
+}
+
+#cta {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
