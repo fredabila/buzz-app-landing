@@ -1,4 +1,13 @@
-/* Add your custom CSS styles here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
 header {
   text-align: center;
   background-color: #f2f2f2;
@@ -6,32 +15,67 @@ header {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
 }
 
 #features {
   text-align: center;
-  padding: 20px;
+  padding: 40px 0;
+  background-color: #ebebeb;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 #screenshots {
   text-align: center;
-  padding: 20px;
+  padding: 40px 0;
+  background-color: #ffffff;
 }
 
 .screenshot {
-  margin-bottom: 20px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.screenshot img {
+  width: 280px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #cta {
   text-align: center;
-  padding: 20px;
+  padding: 40px 0;
+  background-color: #f2f2f2;
 }
 
 .app-links {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.app-links img {
+  width: 160px;
+  height: auto;
 }
 
 footer {
