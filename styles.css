@@ -6,7 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f5f8fa;
+  color: #14171a;
 }
 
 .container {
@@ -16,13 +17,14 @@ body {
 }
 
 header {
-  background-color: #4267B2;
+  background-color: #1da1f2;
   color: #fff;
+  padding: 60px 0;
 }
 
 h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -34,7 +36,7 @@ p {
   background-color: #fff;
   text-align: center;
   padding: 60px 0;
-  color: #333;
+  color: #14171a;
 }
 
 h2 {
@@ -43,7 +45,7 @@ h2 {
 }
 
 #features {
-  background-color: #f7f7f7;
+  background-color: #f5f8fa;
   padding: 60px 0;
 }
 
@@ -89,7 +91,7 @@ li {
   left: 15px;
   right: 15px;
   bottom: 15px;
-  border: 2px solid #aaa;
+  border: 2px solid #e1e8ed;
   border-radius: 14px;
 }
 
@@ -105,7 +107,7 @@ li {
 }
 
 #cta {
-  background-color: #4267B2;
+  background-color: #1da1f2;
   color: #fff;
   padding: 60px 0;
 }
@@ -122,7 +124,7 @@ li {
 }
 
 footer {
-  background-color: #333;
+  background-color: #1da1f2;
   color: #fff;
   padding: 20px 0;
   text-align: center;
