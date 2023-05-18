@@ -11,7 +11,7 @@ body {
 
 header {
   text-align: center;
-  background-color: #102d5a;
+  background-image: linear-gradient(to bottom right, #ff5757, #ff96a6);
   padding: 60px 0;
   color: #fff;
 }
@@ -49,7 +49,7 @@ li {
 #screenshots {
   text-align: center;
   padding: 60px 0;
-  background-color: #f7f7f7;
+  background-image: linear-gradient(to bottom, #f7f7f7, #e9e9e9);
 }
 
 .screenshot {
@@ -60,8 +60,8 @@ li {
 
 .device {
   position: relative;
-  width: 280px;
-  height: 560px;
+  width: 320px;
+  height: 600px;
   background-color: #fff;
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -84,8 +84,9 @@ li {
 }
 
 .device img {
-  max-width: 240px;
+  max-width: 280px;
   height: auto;
+  border-radius: 10px;
 }
 
 .screenshot p {
@@ -96,7 +97,7 @@ li {
 #cta {
   text-align: center;
   padding: 60px 0;
-  background-color: #102d5a;
+  background-image: linear-gradient(to bottom left, #ff5757, #ff96a6);
   color: #fff;
 }
 
@@ -114,7 +115,7 @@ li {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #102d5a;
+  background-image: linear-gradient(to bottom right, #ff5757, #ff96a6);
   color: #fff;
   font-size: 14px;
 }
